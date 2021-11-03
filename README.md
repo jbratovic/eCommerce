@@ -2,9 +2,10 @@
 eCommerce web app written in React
 =======
 
-Project was built using React. It's small app for buying furniture, have login functionality, add to cart, rating system... just run it :) This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project was built using React. It's small app for buying furniture, have login functionality, add to cart, rating system...I used dummy backend, Firebase, for CRUD operations. Just run app to see :) This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+For first usage in your CLI run ### `npm install` to install the dependencies in the local node_modules folder 
 
 In the project directory, you can run:
 
