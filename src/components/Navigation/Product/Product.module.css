@@ -1,0 +1,10 @@
+li:hover svg { opacity: 1; transition: opacity 350ms ease; }
+
+a.product {  border: 1px solid #cccccc; border-radius: 5px; padding: 10px; transition: all 150ms cubic-bezier(.445,.05,.55,.95); box-shadow: 0px 2px #5daad0; margin: 10px; display: block; }
+a.product:hover { text-decoration: none; box-shadow: 0px 0px 20px -5px #888888; transition-duration: .2s; }
+.img-box { border-bottom: 1px solid #595959; padding-bottom: 5px; }
+.img-box img { border-top-left-radius: 5px; border-top-right-radius: 5px; }
+.description-box p { margin-top: 5px; }
+
+.textGray { color: #595959; }
+.textBlack { color: #000000; }

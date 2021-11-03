@@ -1,0 +1,16 @@
+.errorMessage { color: #e60000; font-size: 14px; font-weight: 400; margin-top: 5px; }
+.checkboxInput { margin-right: 5px; cursor: pointer; }
+.checkboxLabel { display: inline-block !important; } 
+
+/* remove arrow from right side of input field, number */
+/* Chrome, Safari, Edge, Opera */
+.number::-webkit-outer-spin-button,
+.number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.number[type=number] {
+  -moz-appearance: textfield;
+}

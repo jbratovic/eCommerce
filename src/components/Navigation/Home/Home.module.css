@@ -1,0 +1,2 @@
+.wrapper { display: flex; flex-flow: row wrap; justify-content: center; list-style: none; }
+.wrapper li { flex-basis: 22%; }

@@ -1,0 +1,11 @@
+.cart-main { border: 1px solid #e3e3e8; border-radius: 5px; padding: 20px;  }
+.cart-main .cart-box { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e3e3e8; margin-bottom: 30px; padding-bottom: 40px; }
+
+.product-details .picture-container { display: flex; }
+.product-details .picture-container img { max-width: 200px; margin-right: 25px; }
+
+.subtotal { display: flex; justify-content: space-between; align-items: center; border: 1px solid #e3e3e8; border-radius: 5px; padding: 20px; }
+
+.remove-add-button { display: flex; }
+.remove-add-button button { min-width: 50px; }
+.remove-add-button button:first-child { margin-right: 5px; }

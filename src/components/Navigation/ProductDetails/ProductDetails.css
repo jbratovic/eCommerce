@@ -1,0 +1,10 @@
+.product-container { display: flex; justify-content: space-between; flex-flow: row nowrap; }
+.product-container .product-box { flex-basis: 50%; }
+.product-container .product-box:first-child { flex-basis: 60%; }
+.product-container .product-box:first-child img { max-width: 500px; width: 100%; }
+
+.product-box .product-code { padding: 5px; border-radius: 5px; background-color: #e8e6e7; }
+.product-box .quantity {display: flex;  }
+.product-box .quantity .btn { height: 46px; line-height: 1; margin-left: 10px;}
+
+

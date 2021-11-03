@@ -1,0 +1,14 @@
+header { background-color: #5daad0; padding: 0px 10%; }
+.Nav { max-width: 450px; margin: 0 auto; }
+.Nav ul { list-style: none; display: flex; align-items: center; justify-content: space-evenly; padding-left: 0; margin: 0;  }
+.Nav ul li a { padding: 15px; display: block; }
+.Nav ul li a.active { background-color:#ff6a00; }
+
+.Nav ul li .logout-btn { color: #000000; text-decoration: none; cursor: pointer; padding: 8px; display: block; border: 1px solid #e20074;     transition: all 150ms cubic-bezier(.445,.05,.55,.95);}
+.Nav ul li .logout-btn:hover { color: #e20074; background-color: #ededed; border-color: #a10000; }
+
+.Nav ul li.cart-Icon { margin-left: 3.5rem; cursor: pointer; position: relative; }
+
+.Nav ul li span.cart-Basket { position: absolute; bottom: -5px; left: -9px; font-size: 13px; font-weight: bold; background: #ffcb00; border: 1px solid #1c1d1d; border-radius: 50%; text-align: center; padding: 1px;
+} 
+
